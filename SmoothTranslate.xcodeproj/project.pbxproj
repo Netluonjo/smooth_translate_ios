@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ST0100012C9F000100000001 /* SmoothTranslateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200012C9F000100000001 /* SmoothTranslateApp.swift */; };
+		ST0100022C9F000100000001 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200022C9F000100000001 /* AppColors.swift */; };
+		ST0100032C9F000100000001 /* LanguageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200032C9F000100000001 /* LanguageItem.swift */; };
+		ST0100042C9F000100000001 /* TranslationRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200042C9F000100000001 /* TranslationRecord.swift */; };
+		ST0100052C9F000100000001 /* TtsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200052C9F000100000001 /* TtsService.swift */; };
+		ST0100062C9F000100000001 /* SpeechRecognizerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200062C9F000100000001 /* SpeechRecognizerService.swift */; };
+		ST0100072C9F000100000001 /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200072C9F000100000001 /* TranslationService.swift */; };
+		ST0100082C9F000100000001 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200082C9F000100000001 /* HistoryStore.swift */; };
+		ST0100092C9F000100000001 /* LanguagePickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200092C9F000100000001 /* LanguagePickerSheet.swift */; };
+		ST01000A2C9F000100000001 /* SoundwaveVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST02000A2C9F000100000001 /* SoundwaveVisualizer.swift */; };
+		ST01000B2C9F000100000001 /* ToolCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST02000B2C9F000100000001 /* ToolCard.swift */; };
+		ST01000C2C9F000100000001 /* LanguageCapsuleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST02000C2C9F000100000001 /* LanguageCapsuleBar.swift */; };
+		ST01000D2C9F000100000001 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST02000D2C9F000100000001 /* HomeScreen.swift */; };
+		ST01000E2C9F000100000001 /* TextTranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST02000E2C9F000100000001 /* TextTranslateView.swift */; };
+		ST01000F2C9F000100000001 /* PhotoTranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST02000F2C9F000100000001 /* PhotoTranslateView.swift */; };
+		ST0100102C9F000100000001 /* VoiceTranslateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200102C9F000100000001 /* VoiceTranslateView.swift */; };
+		ST0100112C9F000100000001 /* FaceToFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200112C9F000100000001 /* FaceToFaceView.swift */; };
+		ST0100122C9F000100000001 /* OfflineModelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200122C9F000100000001 /* OfflineModelsView.swift */; };
+		ST0100132C9F000100000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200132C9F000100000001 /* SettingsView.swift */; };
+		ST0100142C9F000100000001 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ST0200142C9F000100000001 /* HistoryView.swift */; };
+		ST0100152C9F000100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ST0200152C9F000100000001 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ST0000012C9F000100000001 /* SmoothTranslate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothTranslate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ST0200012C9F000100000001 /* SmoothTranslateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothTranslateApp.swift; sourceTree = "<group>"; };
+		ST0200022C9F000100000001 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		ST0200032C9F000100000001 /* LanguageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageItem.swift; sourceTree = "<group>"; };
+		ST0200042C9F000100000001 /* TranslationRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationRecord.swift; sourceTree = "<group>"; };
+		ST0200052C9F000100000001 /* TtsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtsService.swift; sourceTree = "<group>"; };
+		ST0200062C9F000100000001 /* SpeechRecognizerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizerService.swift; sourceTree = "<group>"; };
+		ST0200072C9F000100000001 /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
+		ST0200082C9F000100000001 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		ST0200092C9F000100000001 /* LanguagePickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerSheet.swift; sourceTree = "<group>"; };
+		ST02000A2C9F000100000001 /* SoundwaveVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundwaveVisualizer.swift; sourceTree = "<group>"; };
+		ST02000B2C9F000100000001 /* ToolCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolCard.swift; sourceTree = "<group>"; };
+		ST02000C2C9F000100000001 /* LanguageCapsuleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCapsuleBar.swift; sourceTree = "<group>"; };
+		ST02000D2C9F000100000001 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		ST02000E2C9F000100000001 /* TextTranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTranslateView.swift; sourceTree = "<group>"; };
+		ST02000F2C9F000100000001 /* PhotoTranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTranslateView.swift; sourceTree = "<group>"; };
+		ST0200102C9F000100000001 /* VoiceTranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceTranslateView.swift; sourceTree = "<group>"; };
+		ST0200112C9F000100000001 /* FaceToFaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceToFaceView.swift; sourceTree = "<group>"; };
+		ST0200122C9F000100000001 /* OfflineModelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineModelsView.swift; sourceTree = "<group>"; };
+		ST0200132C9F000100000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ST0200142C9F000100000001 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		ST0200152C9F000100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ST0200162C9F000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ST0400012C9F000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ST0500012C9F000100000001 = {
+			isa = PBXGroup;
+			children = (
+				ST0500022C9F000100000001 /* SmoothTranslate */,
+				ST0500092C9F000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ST0500022C9F000100000001 /* SmoothTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				ST0500032C9F000100000001 /* App */,
+				ST0500042C9F000100000001 /* Models */,
+				ST0500052C9F000100000001 /* Services */,
+				ST0500062C9F000100000001 /* Theme */,
+				ST0500072C9F000100000001 /* Views */,
+				ST0200152C9F000100000001 /* Assets.xcassets */,
+			);
+			path = SmoothTranslate;
+			sourceTree = "<group>";
+		};
+		ST0500032C9F000100000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ST0200012C9F000100000001 /* SmoothTranslateApp.swift */,
+				ST0200162C9F000100000001 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ST0500042C9F000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ST0200032C9F000100000001 /* LanguageItem.swift */,
+				ST0200042C9F000100000001 /* TranslationRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ST0500052C9F000100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ST0200052C9F000100000001 /* TtsService.swift */,
+				ST0200062C9F000100000001 /* SpeechRecognizerService.swift */,
+				ST0200072C9F000100000001 /* TranslationService.swift */,
+				ST0200082C9F000100000001 /* HistoryStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ST0500062C9F000100000001 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				ST0200022C9F000100000001 /* AppColors.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		ST0500072C9F000100000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ST0500082C9F000100000001 /* Components */,
+				ST02000D2C9F000100000001 /* HomeScreen.swift */,
+				ST02000E2C9F000100000001 /* TextTranslateView.swift */,
+				ST02000F2C9F000100000001 /* PhotoTranslateView.swift */,
+				ST0200102C9F000100000001 /* VoiceTranslateView.swift */,
+				ST0200112C9F000100000001 /* FaceToFaceView.swift */,
+				ST0200122C9F000100000001 /* OfflineModelsView.swift */,
+				ST0200132C9F000100000001 /* SettingsView.swift */,
+				ST0200142C9F000100000001 /* HistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ST0500082C9F000100000001 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ST0200092C9F000100000001 /* LanguagePickerSheet.swift */,
+				ST02000A2C9F000100000001 /* SoundwaveVisualizer.swift */,
+				ST02000B2C9F000100000001 /* ToolCard.swift */,
+				ST02000C2C9F000100000001 /* LanguageCapsuleBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		ST0500092C9F000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ST0000012C9F000100000001 /* SmoothTranslate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ST0600012C9F000100000001 /* SmoothTranslate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ST0700012C9F000100000001 /* Build configuration list for PBXNativeTarget "SmoothTranslate" */;
+			buildPhases = (
+				ST0800012C9F000100000001 /* Sources */,
+				ST0400012C9F000100000001 /* Frameworks */,
+				ST0900012C9F000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmoothTranslate;
+			productName = SmoothTranslate;
+			productReference = ST0000012C9F000100000001 /* SmoothTranslate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ST0A00012C9F000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ST0600012C9F000100000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = ST0700022C9F000100000001 /* Build configuration list for PBXProject "SmoothTranslate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ST0500012C9F000100000001;
+			productRefGroup = ST0500092C9F000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ST0600012C9F000100000001 /* SmoothTranslate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ST0900012C9F000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ST0100152C9F000100000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ST0800012C9F000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ST0100012C9F000100000001 /* SmoothTranslateApp.swift in Sources */,
+				ST0100022C9F000100000001 /* AppColors.swift in Sources */,
+				ST0100032C9F000100000001 /* LanguageItem.swift in Sources */,
+				ST0100042C9F000100000001 /* TranslationRecord.swift in Sources */,
+				ST0100052C9F000100000001 /* TtsService.swift in Sources */,
+				ST0100062C9F000100000001 /* SpeechRecognizerService.swift in Sources */,
+				ST0100072C9F000100000001 /* TranslationService.swift in Sources */,
+				ST0100082C9F000100000001 /* HistoryStore.swift in Sources */,
+				ST0100092C9F000100000001 /* LanguagePickerSheet.swift in Sources */,
+				ST01000A2C9F000100000001 /* SoundwaveVisualizer.swift in Sources */,
+				ST01000B2C9F000100000001 /* ToolCard.swift in Sources */,
+				ST01000C2C9F000100000001 /* LanguageCapsuleBar.swift in Sources */,
+				ST01000D2C9F000100000001 /* HomeScreen.swift in Sources */,
+				ST01000E2C9F000100000001 /* TextTranslateView.swift in Sources */,
+				ST01000F2C9F000100000001 /* PhotoTranslateView.swift in Sources */,
+				ST0100102C9F000100000001 /* VoiceTranslateView.swift in Sources */,
+				ST0100112C9F000100000001 /* FaceToFaceView.swift in Sources */,
+				ST0100122C9F000100000001 /* OfflineModelsView.swift in Sources */,
+				ST0100132C9F000100000001 /* SettingsView.swift in Sources */,
+				ST0100142C9F000100000001 /* HistoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ST0B00012C9F000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ST0B00022C9F000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDEFINED_VARIABLES = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ST0B00032C9F000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SmoothTranslate/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smooth Translate";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smooth.translate.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ST0B00042C9F000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SmoothTranslate/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Smooth Translate";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smooth.translate.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ST0700012C9F000100000001 /* Build configuration list for PBXNativeTarget "SmoothTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ST0B00032C9F000100000001 /* Debug */,
+				ST0B00042C9F000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ST0700022C9F000100000001 /* Build configuration list for PBXProject "SmoothTranslate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ST0B00012C9F000100000001 /* Debug */,
+				ST0B00022C9F000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ST0A00012C9F000100000001 /* Project object */;
+}
