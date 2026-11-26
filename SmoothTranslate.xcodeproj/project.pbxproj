@@ -44,14 +44,14 @@
 		ST02000A2C9F000100000001 /* SoundwaveVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundwaveVisualizer.swift; sourceTree = "<group>"; };
 		ST02000B2C9F000100000001 /* ToolCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolCard.swift; sourceTree = "<group>"; };
 		ST02000C2C9F000100000001 /* LanguageCapsuleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCapsuleBar.swift; sourceTree = "<group>"; };
-		ST02000D2C9F000100000001 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		ST02000E2C9F000100000001 /* TextTranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTranslateView.swift; sourceTree = "<group>"; };
-		ST02000F2C9F000100000001 /* PhotoTranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTranslateView.swift; sourceTree = "<group>"; };
-		ST0200102C9F000100000001 /* VoiceTranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceTranslateView.swift; sourceTree = "<group>"; };
-		ST0200112C9F000100000001 /* FaceToFaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceToFaceView.swift; sourceTree = "<group>"; };
-		ST0200122C9F000100000001 /* OfflineModelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineModelsView.swift; sourceTree = "<group>"; };
-		ST0200132C9F000100000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		ST0200142C9F000100000001 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		ST02000D2C9F000100000001 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home/HomeScreen.swift; sourceTree = "<group>"; };
+		ST02000E2C9F000100000001 /* TextTranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTranslate/TextTranslateView.swift; sourceTree = "<group>"; };
+		ST02000F2C9F000100000001 /* PhotoTranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTranslate/PhotoTranslateView.swift; sourceTree = "<group>"; };
+		ST0200102C9F000100000001 /* VoiceTranslateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceTranslate/VoiceTranslateView.swift; sourceTree = "<group>"; };
+		ST0200112C9F000100000001 /* FaceToFaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceToFace/FaceToFaceView.swift; sourceTree = "<group>"; };
+		ST0200122C9F000100000001 /* OfflineModelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineModels/OfflineModelsView.swift; sourceTree = "<group>"; };
+		ST0200132C9F000100000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings/SettingsView.swift; sourceTree = "<group>"; };
+		ST0200142C9F000100000001 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings/HistoryView.swift; sourceTree = "<group>"; };
 		ST0200152C9F000100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ST0200162C9F000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
