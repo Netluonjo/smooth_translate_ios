@@ -31,8 +31,7 @@ struct SoundwaveVisualizer: View {
         }
     }
 
-    private func calculateBarHeight(index: index_type) -> CGFloat {
-        typealias index_type = Int
+    private func calculateBarHeight(index: Int) -> CGFloat {
         let normalizedIndex = Double(index) / Double(barCount)
         let sineFactor = sin(normalizedIndex * .pi)
         let waveFactor = sin(Double(index) * 0.8 + phase) * 0.2 + 0.8
